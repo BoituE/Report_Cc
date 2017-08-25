@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/stell"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.admin.report_cc.MainActivity">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Enter Name, Grade,Marks to store in SQLite"
+        android:textColor="#c38cda"
+        android:textSize="20sp" />
+
+
+    <EditText
+
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#aea873"
+        android:hint="Enter Name" />
+
+
+    <EditText
+
+        android:id="@+id/etgrade"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#aea873"
+        android:hint="Enter Grade" />
+
+
+    <EditText
+
+        android:id="@+id/etmarks"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#aea873"
+        android:hint="Enter Marks" />
+
+
+    <EditText
+
+        android:id="@+id/etsubject"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#aea873"
+        android:hint="Enter Subjects" />
+
+    <Button
+
+        android:id="@+id/btnstore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#99bcb1"
+        android:text="Save" />
+
+    <Button
+
+        android:id="@+id/btnget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#8fc1b1"
+        android:text="View All Users from SQLite" />
+
+
+</LinearLayout>
+
+
